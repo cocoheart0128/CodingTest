@@ -14,10 +14,5 @@ def solution(a, b, c, d):
     else:
         a = list(set([x for x in arr if arr.count(x) == 1]))
         answer = a[0]*a[1]
-            
-            
-        
-    
-            
-                    
+                  
     return answer
